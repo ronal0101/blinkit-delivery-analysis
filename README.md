@@ -20,16 +20,18 @@ Source of the dataset: https://youtu.be/klZj_282ApY?si=_nx0Glys-Pak1bcS
 The dataset contains some logical inconsistencies (e.g., outlet establishment years predating the company's founding). This reinforces that the data is synthetic and created for educational purposes. In a real business scenario, these would be flagged and corrected during data validation.
 
 
-The Datset contains: 8523 records
+The Dataset contains: 8523 records
 
 ### Insights from the Orginal Dataset
-1. Logic Errors: The Dataset contains the years starting from 2011 but Blinkit was founded in the year 2013. This explains that the data is synthetic and was only created for educational purpose not a real world analysis 
+1. Logical Errors: The Dataset contains the years starting from 2011 but Blinkit was founded in the year 2013. This explains that the data is synthetic and was only created for educational purpose not a real world analysis 
+
+2. 
 
 ### Customization
 1. Created a new sheet 'Locality' and added a table with 2 columns with Outlet Identifier for referencing and 'City' Column for merging.
 used VLOOKUP to add the city column in the dataset.
 
-2. Created 'Delivery Days' column to know the frequency of orders of a week.
+2. Created 'Delivery Days' column to know the frequency of orders by week.
 
 ## Future Scope
 The Analysis which is done is basic, There is always room for improvement.
