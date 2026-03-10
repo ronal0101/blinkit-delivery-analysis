@@ -22,16 +22,21 @@ The dataset contains some logical inconsistencies (e.g., outlet establishment ye
 
 The Datset contains: 8523 records
 
-Insights from the Orginal Dataset
+### Insights from the Orginal Dataset
 1. Logic Errors: The Dataset contains the years starting from 2011 but Blinkit was founded in the year 2013. This explains that the data is synthetic and was only created for educational purpose not a real world analysis 
 
+### Customization
+1. Created a new sheet 'Locality' and added a table with 2 columns with Outlet Identifier for referencing and 'City' Column for merging.
+used VLOOKUP to add the city column in the dataset.
 
+2. Created 'Delivery Days' column to know the frequency of orders of a week.
 
 ## Future Scope
 The Analysis which is done is basic, There is always room for improvement.
 In the Future I may not only customize the blinkit dataset for more insights but also integrate it with other Eternal subsidiaries.
 
 Why did i not perform an analysis on Eternal Ltd. then?
+
 "Build something imperfect today rather than planning something perfect for tomorrow"
 
 
