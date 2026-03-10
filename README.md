@@ -4,6 +4,9 @@
 
 This project uses a synthetic grocery delivery dataset inspired by quick-commerce platforms like Blinkit. The data includes 10 outlet types across different establishment years (2011-2022), product categories, sales figures, and customer ratings.
 
+Source of the dataset: https://youtu.be/klZj_282ApY?si=_nx0Glys-Pak1bcS
+
+
 **Note:** This is practice data created for learning purposes, not actual Blinkit operational data.
 
 ## Data Cleaning
@@ -18,12 +21,13 @@ The dataset contains some logical inconsistencies (e.g., outlet establishment ye
 
 
 The Datset contains: 8523 records
-Source of the dataset: https://youtu.be/klZj_282ApY?si=_nx0Glys-Pak1bcS
 
 Insights from the Orginal Dataset
-1. Logic
+1. Logic Errors:
 
-Future Scope
+
+
+## Future Scope
 The Analysis which is done is basic, There is always room for improvement.
 In the Future I may not only customize the blinkit dataset for more insights but also integrate it with other Eternal subsidiaries.
 
