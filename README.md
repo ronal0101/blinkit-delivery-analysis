@@ -23,7 +23,7 @@ The dataset contains some logical inconsistencies (e.g., outlet establishment ye
 The Datset contains: 8523 records
 
 Insights from the Orginal Dataset
-1. Logic Errors:
+1. Logic Errors: The Dataset contains the years starting from 2011 but Blinkit was founded in the year 2013. This explains that the data is synthetic and was only created for educational purpose not a real world analysis 
 
 
 
