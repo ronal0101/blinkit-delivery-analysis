@@ -6,26 +6,26 @@ This project uses a synthetic grocery delivery dataset inspired by quick-commerc
 
 Source of the dataset: https://youtu.be/klZj_282ApY?si=_nx0Glys-Pak1bcS
 
-
 **Note:** This is practice data created for learning purposes, not actual Blinkit operational data.
 
 ## Data Cleaning
 
-- Removed duplicates using Power Query
+- Removed duplicates 
 - Identified 10 unique outlet identifiers
 - Validated data consistency across establishment years and outlet types
+- Added +2 for all the Outlet Establishment Year cells to rectify the logical error 
+
 
 ## Data Quality Notes
 
 The dataset contains some logical inconsistencies (e.g., outlet establishment years predating the company's founding). This reinforces that the data is synthetic and created for educational purposes. In a real business scenario, these would be flagged and corrected during data validation.
 
 
-The Dataset contains: 8523 records
+The Dataset contains: 8523 records and 13 columns
+
 
 ### Insights from the Orginal Dataset
 1. Logical Errors: The Dataset contains the years starting from 2011 but Blinkit was founded in the year 2013. This explains that the data is synthetic and was only created for educational purpose not a real world analysis 
-
-2. 
 
 ### Customization
 1. Created a new sheet 'Locality' and added a table with 2 columns with Outlet Identifier for referencing and 'City' Column for merging.
@@ -37,7 +37,7 @@ used VLOOKUP to add the city column in the dataset.
 The Analysis which is done is basic, There is always room for improvement.
 In the Future I may not only customize the blinkit dataset for more insights but also integrate it with other Eternal subsidiaries.
 
-Why did i not perform an analysis on Eternal Ltd. then?
+Why did i not perform an analysis on Eternal Ltd. now then?
 
 "Build something imperfect today rather than planning something perfect for tomorrow"
 
