@@ -10,18 +10,14 @@ Source of the dataset: https://youtu.be/klZj_282ApY?si=_nx0Glys-Pak1bcS
 
 ## Data Cleaning
 
-- Removed duplicates 
+- Removed Duplicates & unwanted Columns using Power Query
 - Identified 10 unique outlet identifiers
-- Validated data consistency across establishment years and outlet types
 - Added +2 for all the Outlet Establishment Year cells to rectify the logical error 
 
 
 ## Data Quality Notes
 
 The dataset contains some logical inconsistencies (e.g., outlet establishment years predating the company's founding). This reinforces that the data is synthetic and created for educational purposes. In a real business scenario, these would be flagged and corrected during data validation.
-
-
-The Dataset contains: 8523 records and 13 columns
 
 
 ### Insights from the Orginal Dataset
@@ -32,6 +28,13 @@ The Dataset contains: 8523 records and 13 columns
 used VLOOKUP to add the city column in the dataset.
 
 2. Created 'Delivery Days' column to know the frequency of orders by week.
+
+
+## Recommendations and Conclusions
+
+- OUT019 achieves highest customer rating (4.0) with lowest sales volume (528 orders), indicating a quality-focused niche model.
+- Fruits/vegetables, snacks, and household items drive 40% of total sales, Ensure they never stock out.
+- Prioritize medium-sized outlets in Tier 2/3 cities where performance per location is strongest.
 
 ## Future Scope
 The Analysis which is done is basic, There is always room for improvement.
