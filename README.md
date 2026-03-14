@@ -45,7 +45,7 @@ The dataset contains some logical inconsistencies (e.g., outlet establishment ye
 ## Files
 - `dataset.xlsx` - Raw Dataset
 - `BlinkIt Grocery Data Analysis.xlsx` - Excel Worksheet with Pivot Tables and Interactive Dashboard
-- `dashboard.png` - Excel dashboard
+- `Dashboard.png` - Excel dashboard
 - `README.md` - Project documentation
 
 
