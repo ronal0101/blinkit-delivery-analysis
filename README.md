@@ -55,4 +55,4 @@ This analysis focuses on foundational insights. Future iterations could integrat
 "Build something imperfect today rather than planning something perfect for tomorrow"
 
 
-<img src="" >
+<img src="Dashboard.png" alt="dashboard">
